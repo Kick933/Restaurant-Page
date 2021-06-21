@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+#absolute_nav{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    filter: brightness(0.5);
+}
+#title-flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+button{ 
+    border: none;
+    background-color: inherit;
+    font-size: 2rem;
+}
+button:hover{
+    filter: brightness(0.6);
+}
+#pageWrapper{
+    filter: brightness(0.8);
+    margin: 20vh auto;
+    width: max-content;
+    padding: 10rem;
+
+}
+#contact-container{
+    background-color: lightgray;
+    border-radius: 10%;
+}
