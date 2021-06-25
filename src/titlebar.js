@@ -7,14 +7,14 @@ import { showContact } from './contact';
 function createTitle(){
     const content = document.getElementById("content");
     const fixedNav = document.createElement("div");
-    fixedNav.id="absolute_nav"
+    fixedNav.id="absoluteNav"
     // appends child to navbar and makes flexbox.
     // Adds icon to the navbar
     const myIcon = new Image();
     myIcon.src = Icon;
     fixedNav.appendChild(myIcon);
     const nav = document.createElement("div");
-    nav.id="title-flexbox";
+    nav.id="titleFlexbox";
     const home = document.createElement("button");
     home.id ="home";
     home.innerHTML="Home";

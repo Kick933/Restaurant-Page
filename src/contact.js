@@ -2,7 +2,7 @@ function showContact(){
     const contactCard = document.getElementById("pageWrapper");
     contactCard.innerHTML = "";
     const container = document.createElement("div");
-    container.id = "contact_container";
+    container.id = "contactContainer";
     const name = document.createElement("h1");
     name.innerText = "The Crazzy Pizza";
     container.appendChild(name);
