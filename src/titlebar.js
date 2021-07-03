@@ -12,6 +12,7 @@ function createTitle(){
     // Adds icon to the navbar
     const myIcon = new Image();
     myIcon.src = Icon;
+    myIcon.id="iconIMG"
     fixedNav.appendChild(myIcon);
     const nav = document.createElement("div");
     nav.id="titleFlexbox";
@@ -38,6 +39,7 @@ function createTitle(){
     const pageWrapper = document.createElement("div")
     pageWrapper.id="pageWrapper";
     content.append(pageWrapper);
+    showHome();
 }
 
 export {
